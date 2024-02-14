@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #212121;
+}
+
+li{
+    list-style: none;
+}
+
+a{    
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #fff;
+
+    /* colors */
+    --primary-color: #150089;
+}
+
+body{
+    background: var(--bg-color);
+    height: 1000vh;
+}
